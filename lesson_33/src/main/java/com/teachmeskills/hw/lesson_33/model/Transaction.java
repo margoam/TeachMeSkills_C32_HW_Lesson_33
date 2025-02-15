@@ -1,6 +1,5 @@
 package com.teachmeskills.hw.lesson_33.model;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Transaction {
