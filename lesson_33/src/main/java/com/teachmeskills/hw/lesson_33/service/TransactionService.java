@@ -2,6 +2,7 @@ package com.teachmeskills.hw.lesson_33.service;
 
 import com.teachmeskills.hw.lesson_33.dao.AccountDAO;
 import com.teachmeskills.hw.lesson_33.dao.TransactionDAO;
+
 import com.teachmeskills.hw.lesson_33.exception.NotValidAccountNumberException;
 import com.teachmeskills.hw.lesson_33.exception.NotValidSumTransactionException;
 import com.teachmeskills.hw.lesson_33.model.Transaction;
@@ -12,7 +13,6 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 
 public class TransactionService {
-
     private final AccountDAO accountDAO;
     private final TransactionDAO transactionDAO;
 

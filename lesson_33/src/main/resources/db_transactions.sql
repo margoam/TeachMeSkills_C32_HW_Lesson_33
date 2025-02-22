@@ -10,13 +10,11 @@ CREATE TABLE IF NOT EXISTS public.transactions
     CONSTRAINT account_number FOREIGN KEY (from_account)
     REFERENCES public.accounts (account_number) MATCH SIMPLE
     ON UPDATE NO ACTION
-    ON DELETE NO ACTION
-    NOT VALID,
+    ON DELETE NO ACTION,
     CONSTRAINT username FOREIGN KEY (from_account)
     REFERENCES public.accounts (account_number) MATCH SIMPLE
     ON UPDATE NO ACTION
     ON DELETE NO ACTION
-    NOT VALID
     )
 
     TABLESPACE pg_default;

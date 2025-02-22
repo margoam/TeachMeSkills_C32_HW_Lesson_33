@@ -10,7 +10,6 @@ import java.sql.SQLException;
 import java.util.Optional;
 
 public class AccountService {
-
     private final AccountDAO accountDAO;
 
     public AccountService(AccountDAO accountDAO) {
