@@ -1,5 +1,6 @@
-package com.teachmeskills.hw.lesson_33.dao;
+package com.teachmeskills.hw.lesson_33.dao.impl;
 
+import com.teachmeskills.hw.lesson_33.dao.AccountDAO;
 import com.teachmeskills.hw.lesson_33.model.Account;
 import com.teachmeskills.hw.lesson_33.utils.DbConnection;
 

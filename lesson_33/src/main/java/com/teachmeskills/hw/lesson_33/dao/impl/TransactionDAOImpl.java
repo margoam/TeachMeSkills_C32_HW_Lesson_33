@@ -1,5 +1,6 @@
-package com.teachmeskills.hw.lesson_33.dao;
+package com.teachmeskills.hw.lesson_33.dao.impl;
 
+import com.teachmeskills.hw.lesson_33.dao.TransactionDAO;
 import com.teachmeskills.hw.lesson_33.model.Transaction;
 
 import java.sql.Connection;

@@ -1,9 +1,9 @@
 package com.teachmeskills.hw.lesson_33;
 
 import com.teachmeskills.hw.lesson_33.dao.AccountDAO;
-import com.teachmeskills.hw.lesson_33.dao.AccountDAOImpl;
+import com.teachmeskills.hw.lesson_33.dao.impl.AccountDAOImpl;
 import com.teachmeskills.hw.lesson_33.dao.TransactionDAO;
-import com.teachmeskills.hw.lesson_33.dao.TransactionDAOImpl;
+import com.teachmeskills.hw.lesson_33.dao.impl.TransactionDAOImpl;
 import com.teachmeskills.hw.lesson_33.exception.NotValidAccountNumberException;
 import com.teachmeskills.hw.lesson_33.exception.NotValidSumTransactionException;
 import com.teachmeskills.hw.lesson_33.model.Account;
